@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nos formations IFPF : Employé Commercial, Assistant Commercial, Préparateur de Commande, Conseiller de Vente. Formations qualifiantes reconnues par l'État.">
+    <title>Nos Formations — IFPF | Institut de Formation Professionnelle de France</title>
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='33.33' height='100' fill='%230055A4'/><rect x='33.33' width='33.33' height='100' fill='%23FFFFFF'/><rect x='66.66' width='33.33' height='100' fill='%23EF4135'/></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="barre-drapeau" aria-hidden="true"></div>
+
+    <header class="entete">
+        <div class="entete-inner">
+            <a href="index.html" class="logo" aria-label="Retour à l'accueil">
+                <div class="logo-icone">IF</div>
+                <div class="logo-texte">
+                    <span class="logo-nom">IFPF</span>
+                    <span class="logo-sous-titre">Formation Professionnelle</span>
+                </div>
+            </a>
+            <nav class="nav-principal" aria-label="Navigation principale">
+                <ul class="menu">
+                    <li class="menu-item"><a href="index.html" class="menu-lien">Accueil</a></li>
+                    <li class="menu-item">
+                        <a href="presentation.html" class="menu-lien">
+                            L'Institut <span class="menu-fleche">▼</span>
+                        </a>
+                        <ul class="sous-menu">
+                            <li><a href="presentation.html" class="sous-menu-lien">Présentation</a></li>
+                            <li><a href="presentation.html#valeurs" class="sous-menu-lien">Nos Valeurs</a></li>
+                            <li><a href="presentation.html#methodes" class="sous-menu-lien">Méthodes Pédagogiques</a></li>
+                            <li><a href="presentation.html#equipement" class="sous-menu-lien">Nos Équipements</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="formations.html" class="menu-lien active">
+                            Formations <span class="menu-fleche">▼</span>
+                        </a>
+                        <ul class="sous-menu">
+                            <li><a href="#employe-commercial" class="sous-menu-lien">Employé Commercial</a></li>
+                            <li><a href="#assistant-commercial" class="sous-menu-lien">Assistant Commercial</a></li>
+                            <li><a href="#preparateur-commande" class="sous-menu-lien">Préparateur de Commande</a></li>
+                            <li><a href="#conseiller-vente" class="sous-menu-lien">Conseiller de Vente</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="apprentissage.html" class="menu-lien">
+                            Apprentissage <span class="menu-fleche">▼</span>
+                        </a>
+                        <ul class="sous-menu">
+                            <li><a href="apprentissage.html" class="sous-menu-lien">L'Alternance</a></li>
+                            <li><a href="apprentissage.html#candidature" class="sous-menu-lien">Candidature en Ligne</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="entreprise.html" class="menu-lien">
+                            Entreprises <span class="menu-fleche">▼</span>
+                        </a>
+                        <ul class="sous-menu">
+                            <li><a href="entreprise.html#recruter" class="sous-menu-lien">Recruter un Apprenti</a></li>
+                            <li><a href="entreprise.html#partenaire" class="sous-menu-lien">Devenir Partenaire</a></li>
+                            <li><a href="entreprise.html#stage" class="sous-menu-lien">Déposer une Offre</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="actualites.html" class="menu-lien">Actualités</a></li>
+                    <li class="menu-item"><a href="contact.html" class="menu-lien">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero hero-page">
+        <div class="hero-motif" aria-hidden="true"></div>
+        <div class="hero-contenu">
+            <div class="hero-badge">
+                <span class="hero-badge-drapeau" aria-hidden="true">
+                    <span style="background:#0055A4;"></span>
+                    <span style="background:#FFFFFF;"></span>
+                    <span style="background:#EF4135;"></span>
+                </span>
+                Formations Certifiantes
+            </div>
+            <h1>Nos Formations</h1>
+            <p class="hero-sous-titre">Des parcours professionnalisants reconnus par le Ministère du Travail</p>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section presentation">
+        <div class="conteneur">
+            <div class="presentation-intro animer">
+                <h2 class="presentation-titre">4 Formations d'Excellence Pour Votre Avenir</h2>
+                <p class="presentation-texte">
+                    L'IFPF propose quatre formations phares dans les domaines du commerce, de la vente et de la logistique. Toutes nos formations sont accessibles en formation initiale, en alternance, ou en formation continue, et débouchent sur un titre professionnel reconnu par l'État.
+                </p>
+            </div>
+
+            <!-- ============================================================
+                 FORMATION 1 : EMPLOYÉ COMMERCIAL
+                 ============================================================ -->
+            <div class="formation-carte-detail animer" id="employe-commercial">
+                <div class="formation-entete">
+                    <div class="formation-numero">01</div>
+                    <div class="formation-titre-detail">
+                        <h3>Employé Commercial</h3>
+                        <span class="formation-etiquette">Titre Professionnel — Niveau 3 (CAP)</span>
+                    </div>
+                </div>
+
+                <div class="formation-grille-infos">
+                    <div class="info-element">
+                        <div class="info-element-icone">⏱</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Durée</div>
+                            <div class="info-element-valeur">12 mois</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">🎓</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Diplôme</div>
+                            <div class="info-element-valeur">Titre Pro Niv. 3</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">🏢</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Modalité</div>
+                            <div class="info-element-valeur">Alternance / Initial</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">€</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Coût apprenant</div>
+                            <div class="info-element-valeur">0€ en alternance</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="titre-bleu" style="margin-bottom: 0.8rem; font-size: 1.2rem;">🎯 Objectifs de la formation</h4>
+                <p>Former des professionnels polyvalents capables d'assurer l'accueil client, la mise en rayon, l'encaissement et la gestion courante d'un point de vente. Le titulaire du titre professionnel est opérationnel dès sa sortie de formation.</p>
+
+                <h4 class="titre-bleu" style="margin-top: 1.5rem; margin-bottom: 0.8rem; font-size: 1.2rem;">📚 Compétences développées</h4>
+                <ul class="liste-stylisee">
+                    <li>Accueillir, conseiller et orienter la clientèle en magasin</li>
+                    <li>Assurer la mise en rayon et le réassort des produits</li>
+                    <li>Réaliser les opérations d'encaissement et tenir la caisse</li>
+                    <li>Participer à la gestion des stocks et à l'inventaire</li>
+                    <li>Garantir la propreté et l'attractivité de l'espace de vente</li>
+                    <li>Appliquer les règles d'hygiène, de sécurité et de prévention</li>
+                </ul>
+
+                <h4 class="titre-bleu" style="margin-top: 1.5rem; margin-bottom: 0.8rem; font-size: 1.2rem;">💼 Débouchés professionnels</h4>
+                <ul class="liste-stylisee">
+                    <li>Employé(e) commercial(e) en magasin</li>
+                    <li>Hôte(sse) de caisse</li>
+                    <li>Vendeur(se) en libre-service</li>
+                    <li>Employé(e) de rayon</li>
+                </ul>
+
+                <div style="margin-top: 2rem; text-align: center;">
+                    <a href="apprentissage.html#candidature" class="btn btn-rouge">Candidater à cette formation</a>
+                </div>
+            </div>
+
+            <!-- ============================================================
+                 FORMATION 2 : ASSISTANT COMMERCIAL
+                 ============================================================ -->
+            <div class="formation-carte-detail animer" id="assistant-commercial">
+                <div class="formation-entete">
+                    <div class="formation-numero">02</div>
+                    <div class="formation-titre-detail">
+                        <h3>Assistant Commercial</h3>
+                        <span class="formation-etiquette">Titre Professionnel — Niveau 4 (BAC)</span>
+                    </div>
+                </div>
+
+                <div class="formation-grille-infos">
+                    <div class="info-element">
+                        <div class="info-element-icone">⏱</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Durée</div>
+                            <div class="info-element-valeur">12 mois</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">🎓</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Diplôme</div>
+                            <div class="info-element-valeur">Titre Pro Niv. 4</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">🏢</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Modalité</div>
+                            <div class="info-element-valeur">Alternance / Initial</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">€</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Coût apprenant</div>
+                            <div class="info-element-valeur">0€ en alternance</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="titre-bleu" style="margin-bottom: 0.8rem; font-size: 1.2rem;">🎯 Objectifs de la formation</h4>
+                <p>Former des assistants commerciaux capables de gérer l'administration des ventes, d'accompagner la force commerciale et d'assurer le suivi de la relation client. Un rôle pivot entre les clients, les commerciaux et les services internes de l'entreprise.</p>
+
+                <h4 class="titre-bleu" style="margin-top: 1.5rem; margin-bottom: 0.8rem; font-size: 1.2rem;">📚 Compétences développées</h4>
+                <ul class="liste-stylisee">
+                    <li>Gérer l'administration des ventes : devis, commandes, factures, livraisons</li>
+                    <li>Assurer la relation client par téléphone, mail et courrier</li>
+                    <li>Participer à la prospection commerciale et à la prise de rendez-vous</li>
+                    <li>Maîtriser les outils bureautiques (Word, Excel, PowerPoint) et CRM</li>
+                    <li>Participer à l'organisation d'événements commerciaux</li>
+                    <li>Réaliser des tableaux de bord et reportings commerciaux</li>
+                </ul>
+
+                <h4 class="titre-bleu" style="margin-top: 1.5rem; margin-bottom: 0.8rem; font-size: 1.2rem;">💼 Débouchés professionnels</h4>
+                <ul class="liste-stylisee">
+                    <li>Assistant(e) commercial(e)</li>
+                    <li>Assistant(e) ADV (Administration des Ventes)</li>
+                    <li>Gestionnaire de clientèle</li>
+                    <li>Assistant(e) de direction commerciale</li>
+                </ul>
+
+                <div style="margin-top: 2rem; text-align: center;">
+                    <a href="apprentissage.html#candidature" class="btn btn-rouge">Candidater à cette formation</a>
+                </div>
+            </div>
+
+            <!-- ============================================================
+                 FORMATION 3 : PRÉPARATEUR DE COMMANDE
+                 ============================================================ -->
+            <div class="formation-carte-detail animer" id="preparateur-commande">
+                <div class="formation-entete">
+                    <div class="formation-numero">03</div>
+                    <div class="formation-titre-detail">
+                        <h3>Préparateur de Commande</h3>
+                        <span class="formation-etiquette">Titre Professionnel — Niveau 3 (CAP)</span>
+                    </div>
+                </div>
+
+                <div class="formation-grille-infos">
+                    <div class="info-element">
+                        <div class="info-element-icone">⏱</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Durée</div>
+                            <div class="info-element-valeur">6 à 12 mois</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">🎓</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Diplôme</div>
+                            <div class="info-element-valeur">Titre Pro Niv. 3</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">🏢</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Modalité</div>
+                            <div class="info-element-valeur">Alternance / Continue</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">€</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Coût apprenant</div>
+                            <div class="info-element-valeur">0€ en alternance</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="titre-bleu" style="margin-bottom: 0.8rem; font-size: 1.2rem;">🎯 Objectifs de la formation</h4>
+                <p>Former des préparateurs de commande opérationnels dans les entrepôts logistiques, plateformes de e-commerce et centres de distribution. Une formation complète incluant les CACES et la maîtrise des outils informatiques de gestion de stock.</p>
+
+                <h4 class="titre-bleu" style="margin-top: 1.5rem; margin-bottom: 0.8rem; font-size: 1.2rem;">📚 Compétences développées</h4>
+                <ul class="liste-stylisee">
+                    <li>Réceptionner et contrôler les marchandises à l'entrée de l'entrepôt</li>
+                    <li>Préparer les commandes selon les bons de préparation</li>
+                    <li>Emballer, étiqueter et conditionner les produits pour expédition</li>
+                    <li>Utiliser les engins de manutention (formation CACES R489 incluse)</li>
+                    <li>Maîtriser les outils informatiques de gestion de stock (WMS)</li>
+                    <li>Appliquer les règles de sécurité et les procédures qualité</li>
+                </ul>
+
+                <h4 class="titre-bleu" style="margin-top: 1.5rem; margin-bottom: 0.8rem; font-size: 1.2rem;">💼 Débouchés professionnels</h4>
+                <ul class="liste-stylisee">
+                    <li>Préparateur(trice) de commandes</li>
+                    <li>Agent de quai logistique</li>
+                    <li>Magasinier(ère) cariste</li>
+                    <li>Opérateur(trice) logistique en entrepôt</li>
+                </ul>
+
+                <div style="margin-top: 2rem; text-align: center;">
+                    <a href="apprentissage.html#candidature" class="btn btn-rouge">Candidater à cette formation</a>
+                </div>
+            </div>
+
+            <!-- ============================================================
+                 FORMATION 4 : CONSEILLER DE VENTE
+                 ============================================================ -->
+            <div class="formation-carte-detail animer" id="conseiller-vente">
+                <div class="formation-entete">
+                    <div class="formation-numero">04</div>
+                    <div class="formation-titre-detail">
+                        <h3>Conseiller de Vente</h3>
+                        <span class="formation-etiquette">Titre Professionnel — Niveau 4 (BAC)</span>
+                    </div>
+                </div>
+
+                <div class="formation-grille-infos">
+                    <div class="info-element">
+                        <div class="info-element-icone">⏱</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Durée</div>
+                            <div class="info-element-valeur">12 mois</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">🎓</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Diplôme</div>
+                            <div class="info-element-valeur">Titre Pro Niv. 4</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">🏢</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Modalité</div>
+                            <div class="info-element-valeur">Alternance / Initial</div>
+                        </div>
+                    </div>
+                    <div class="info-element">
+                        <div class="info-element-icone">€</div>
+                        <div class="info-element-texte">
+                            <div class="info-element-label">Coût apprenant</div>
+                            <div class="info-element-valeur">0€ en alternance</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="titre-bleu" style="margin-bottom: 0.8rem; font-size: 1.2rem;">🎯 Objectifs de la formation</h4>
+                <p>Former des conseillers de vente experts, capables de développer leur clientèle, de maîtriser les techniques de vente et d'accompagner chaque client dans son acte d'achat. Un métier centré sur l'humain, le conseil et la performance commerciale.</p>
+
+                <h4 class="titre-bleu" style="margin-top: 1.5rem; margin-bottom: 0.8rem; font-size: 1.2rem;">📚 Compétences développées</h4>
+                <ul class="liste-stylisee">
+                    <li>Accueillir, conseiller et vendre en respectant la méthode des 6C</li>
+                    <li>Maîtriser les techniques de découverte des besoins clients</li>
+                    <li>Négocier et conclure la vente en fidélisant le client</li>
+                    <li>Connaître en profondeur les produits et services proposés</li>
+                    <li>Gérer les réclamations et les situations difficiles</li>
+                    <li>Analyser les indicateurs commerciaux (CA, panier moyen, taux de transformation)</li>
+                    <li>Participer à l'animation commerciale du point de vente</li>
+                </ul>
+
+                <h4 class="titre-bleu" style="margin-top: 1.5rem; margin-bottom: 0.8rem; font-size: 1.2rem;">💼 Débouchés professionnels</h4>
+                <ul class="liste-stylisee">
+                    <li>Conseiller(ère) de vente</li>
+                    <li>Vendeur(se) expert(e)</li>
+                    <li>Conseiller(ère) commercial(e) en boutique</li>
+                    <li>Attaché(e) commercial(e)</li>
+                    <li>Responsable de rayon (après expérience)</li>
+                </ul>
+
+                <div style="margin-top: 2rem; text-align: center;">
+                    <a href="apprentissage.html#candidature" class="btn btn-rouge">Candidater à cette formation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section comparaison -->
+    <section class="section section-alt">
+        <div class="conteneur">
+            <h2 class="titre-section animer">Pourquoi choisir l'IFPF ?</h2>
+
+            <div class="valeurs-grille">
+                <div class="valeur-item animer">
+                    <div class="valeur-icone">🎯</div>
+                    <h3>Formations gratuites</h3>
+                    <p>Toutes nos formations sont 100% gratuites en alternance, financées par les OPCO et l'employeur.</p>
+                </div>
+                <div class="valeur-item animer">
+                    <div class="valeur-icone">🏆</div>
+                    <h3>Titres reconnus</h3>
+                    <p>Nos diplômes sont enregistrés au RNCP et reconnus par le Ministère du Travail français.</p>
+                </div>
+                <div class="valeur-item animer">
+                    <div class="valeur-icone">💼</div>
+                    <h3>Insertion garantie</h3>
+                    <p>95% de nos apprenants décrochent un emploi ou poursuivent leurs études dans les 6 mois.</p>
+                </div>
+                <div class="valeur-item animer">
+                    <div class="valeur-icone">👨‍🏫</div>
+                    <h3>Formateurs experts</h3>
+                    <p>Nos formateurs sont tous des professionnels issus du secteur, en activité ou en conseil.</p>
+                </div>
+                <div class="valeur-item animer">
+                    <div class="valeur-icone">🤝</div>
+                    <h3>Réseau d'entreprises</h3>
+                    <p>Plus de 150 entreprises partenaires pour vous aider à trouver votre alternance rapidement.</p>
+                </div>
+                <div class="valeur-item animer">
+                    <div class="valeur-icone">♿</div>
+                    <h3>Accessible à tous</h3>
+                    <p>Formations adaptées aux personnes en situation de handicap, avec un référent dédié.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-inclusion">
+        <div class="conteneur">
+            <div class="cta-contenu animer">
+                <h2>Une question sur nos formations ?</h2>
+                <p style="font-size:1.15rem; max-width:700px; margin:0 auto var(--espace-m); color: rgba(255,255,255,0.95);">
+                    Nos conseillers pédagogiques sont à votre disposition pour vous accompagner dans le choix de votre formation.
+                </p>
+                <div class="hero-actions">
+                    <a href="contact.html" class="btn btn-rouge">Contactez-nous</a>
+                    <a href="apprentissage.html#candidature" class="btn btn-ligne">Candidature en ligne</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pied-page">
+        <div class="conteneur">
+            <div class="pied-grille">
+                <div class="pied-colonne">
+                    <a href="index.html" class="logo" style="margin-bottom: 1rem;">
+                        <div class="logo-icone" style="width:42px; height:42px; font-size:1.1rem;">IF</div>
+                        <div class="logo-texte">
+                            <span class="logo-nom" style="color: var(--blanc);">IFPF</span>
+                            <span class="logo-sous-titre" style="color: rgba(255,255,255,0.7);">Formation Pro</span>
+                        </div>
+                    </a>
+                    <p class="pied-description">
+                        L'Institut de Formation Professionnelle de France forme les talents de demain grâce à des parcours qualifiants et reconnus par le Ministère du Travail.
+                    </p>
+                    <div class="reseaux-sociaux">
+                        <a href="#" class="reseau-lien" aria-label="Facebook">f</a>
+                        <a href="#" class="reseau-lien" aria-label="LinkedIn">in</a>
+                        <a href="#" class="reseau-lien" aria-label="Instagram">ig</a>
+                        <a href="#" class="reseau-lien" aria-label="YouTube">YT</a>
+                    </div>
+                </div>
+                <div class="pied-colonne">
+                    <h4>L'Institut</h4>
+                    <ul>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="presentation.html#valeurs">Nos Valeurs</a></li>
+                        <li><a href="presentation.html#methodes">Méthodes Pédagogiques</a></li>
+                        <li><a href="presentation.html#equipement">Nos Équipements</a></li>
+                        <li><a href="actualites.html">Actualités</a></li>
+                    </ul>
+                </div>
+                <div class="pied-colonne">
+                    <h4>Formations</h4>
+                    <ul>
+                        <li><a href="#employe-commercial">Employé Commercial</a></li>
+                        <li><a href="#assistant-commercial">Assistant Commercial</a></li>
+                        <li><a href="#preparateur-commande">Préparateur de Commande</a></li>
+                        <li><a href="#conseiller-vente">Conseiller de Vente</a></li>
+                        <li><a href="apprentissage.html">Apprentissage</a></li>
+                    </ul>
+                </div>
+                <div class="pied-colonne">
+                    <h4>Contact</h4>
+                    <div class="pied-contact-item">
+                        <span class="pied-contact-icone">📍</span>
+                        <span>123 Avenue de la République<br>75011 Paris, France</span>
+                    </div>
+                    <div class="pied-contact-item">
+                        <span class="pied-contact-icone">📞</span>
+                        <span>+33 (0)1 23 45 67 89</span>
+                    </div>
+                    <div class="pied-contact-item">
+                        <span class="pied-contact-icone">✉</span>
+                        <span>contact@ifpf.fr</span>
+                    </div>
+                </div>
+            </div>
+            <div class="pied-bas">
+                <div>© 2026 IFPF — Institut de Formation Professionnelle de France. Tous droits réservés.</div>
+                <div class="pied-liens-bas">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/33123456789" class="whatsapp-flottant" target="_blank" rel="noopener" aria-label="Nous contacter sur WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+        </svg>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

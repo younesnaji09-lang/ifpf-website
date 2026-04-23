@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IFPF - Institut de Formation Professionnelle de France. Formations professionnelles qualifiantes : Employé Commercial, Assistant Commercial, Préparateur de Commande, Conseiller de Vente.">
+    <meta name="keywords" content="IFPF, formation professionnelle, France, employé commercial, assistant commercial, préparateur de commande, conseiller de vente, alternance, apprentissage">
+    <meta name="author" content="IFPF">
+    <title>IFPF - Institut de Formation Professionnelle de France | Accueil</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='33.33' height='100' fill='%230055A4'/><rect x='33.33' width='33.33' height='100' fill='%23FFFFFF'/><rect x='66.66' width='33.33' height='100' fill='%23EF4135'/></svg>">
+
+    <!-- Google Fonts : Playfair Display + Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Feuille de style principale -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Barre drapeau -->
+    <div class="barre-drapeau" aria-hidden="true"></div>
+
+    <!-- En-tête / Navigation -->
+    <header class="entete">
+        <div class="entete-inner">
+            <a href="index.html" class="logo" aria-label="Retour à l'accueil">
+                <div class="logo-icone">IF</div>
+                <div class="logo-texte">
+                    <span class="logo-nom">IFPF</span>
+                    <span class="logo-sous-titre">Formation Professionnelle</span>
+                </div>
+            </a>
+
+            <nav class="nav-principal" aria-label="Navigation principale">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-lien active">Accueil</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="presentation.html" class="menu-lien">
+                            L'Institut
+                            <span class="menu-fleche">▼</span>
+                        </a>
+                        <ul class="sous-menu">
+                            <li><a href="presentation.html" class="sous-menu-lien">Présentation</a></li>
+                            <li><a href="presentation.html#valeurs" class="sous-menu-lien">Nos Valeurs</a></li>
+                            <li><a href="presentation.html#methodes" class="sous-menu-lien">Méthodes Pédagogiques</a></li>
+                            <li><a href="presentation.html#equipement" class="sous-menu-lien">Nos Équipements</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="formations.html" class="menu-lien">
+                            Formations
+                            <span class="menu-fleche">▼</span>
+                        </a>
+                        <ul class="sous-menu">
+                            <li><a href="formations.html#employe-commercial" class="sous-menu-lien">Employé Commercial</a></li>
+                            <li><a href="formations.html#assistant-commercial" class="sous-menu-lien">Assistant Commercial</a></li>
+                            <li><a href="formations.html#preparateur-commande" class="sous-menu-lien">Préparateur de Commande</a></li>
+                            <li><a href="formations.html#conseiller-vente" class="sous-menu-lien">Conseiller de Vente</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="apprentissage.html" class="menu-lien">
+                            Apprentissage
+                            <span class="menu-fleche">▼</span>
+                        </a>
+                        <ul class="sous-menu">
+                            <li><a href="apprentissage.html" class="sous-menu-lien">L'Alternance</a></li>
+                            <li><a href="apprentissage.html#candidature" class="sous-menu-lien">Candidature en Ligne</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="entreprise.html" class="menu-lien">
+                            Entreprises
+                            <span class="menu-fleche">▼</span>
+                        </a>
+                        <ul class="sous-menu">
+                            <li><a href="entreprise.html#recruter" class="sous-menu-lien">Recruter un Apprenti</a></li>
+                            <li><a href="entreprise.html#partenaire" class="sous-menu-lien">Devenir Partenaire</a></li>
+                            <li><a href="entreprise.html#stage" class="sous-menu-lien">Déposer une Offre</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="actualites.html" class="menu-lien">Actualités</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contact.html" class="menu-lien">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-motif" aria-hidden="true"></div>
+        <div class="hero-contenu">
+            <div class="hero-badge">
+                <span class="hero-badge-drapeau" aria-hidden="true">
+                    <span style="background:#0055A4;"></span>
+                    <span style="background:#FFFFFF;"></span>
+                    <span style="background:#EF4135;"></span>
+                </span>
+                Excellence &amp; Savoir-Faire Français
+            </div>
+            <h1>
+                Votre avenir professionnel<br>
+                <span class="accent">commence ici</span>
+            </h1>
+            <p class="hero-sous-titre">
+                L'Institut de Formation Professionnelle de France forme les talents de demain à travers des parcours qualifiants, reconnus par le Ministère du Travail, et adaptés aux réalités du marché de l'emploi.
+            </p>
+            <div class="hero-actions">
+                <a href="formations.html" class="btn btn-rouge">
+                    Découvrir nos formations →
+                </a>
+                <a href="contact.html" class="btn btn-ligne">
+                    Nous contacter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistiques -->
+    <section class="stats">
+        <div class="conteneur">
+            <div class="stats-grille">
+                <div class="stat-item">
+                    <div class="stat-nombre" data-cible="4" data-suffixe="">0</div>
+                    <div class="stat-label">Formations certifiantes</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-nombre" data-cible="95" data-suffixe="%">0</div>
+                    <div class="stat-label">Taux de réussite</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-nombre" data-cible="150" data-suffixe="+">0</div>
+                    <div class="stat-label">Entreprises partenaires</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-nombre" data-cible="100" data-suffixe="%">0</div>
+                    <div class="stat-label">Gratuit en alternance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Présentation -->
+    <section class="section presentation">
+        <div class="conteneur">
+            <div class="presentation-intro animer">
+                <h2 class="presentation-titre">IFPF : La Référence de la Formation Professionnelle</h2>
+                <p class="presentation-texte">
+                    L'IFPF propose des formations initiales et continues dans le domaine du commerce et de la logistique. Notre mission : accompagner chaque apprenant vers la réussite grâce à des parcours concrets, professionnalisants et parfaitement alignés avec les besoins des entreprises françaises.
+                </p>
+            </div>
+
+            <h3 class="sous-titre-bleu texte-centre animer">Nos Formations Phares</h3>
+            <div class="bloc-formations">
+                <article class="carte-formation animer">
+                    <div class="carte-formation-icone">🏪</div>
+                    <h4>Employé Commercial</h4>
+                    <p>Maîtrisez les fondamentaux du commerce en magasin : accueil client, mise en rayon, encaissement et gestion des stocks.</p>
+                    <a href="formations.html#employe-commercial" class="carte-formation-lien">
+                        En savoir plus →
+                    </a>
+                </article>
+
+                <article class="carte-formation animer">
+                    <div class="carte-formation-icone">💼</div>
+                    <h4>Assistant Commercial</h4>
+                    <p>Devenez le pilier administratif et commercial d'une entreprise : relation client, gestion des devis et suivi des ventes.</p>
+                    <a href="formations.html#assistant-commercial" class="carte-formation-lien">
+                        En savoir plus →
+                    </a>
+                </article>
+
+                <article class="carte-formation animer">
+                    <div class="carte-formation-icone">📦</div>
+                    <h4>Préparateur de Commande</h4>
+                    <p>Formation aux métiers de la logistique : préparation, emballage, expédition et utilisation des outils informatiques de gestion.</p>
+                    <a href="formations.html#preparateur-commande" class="carte-formation-lien">
+                        En savoir plus →
+                    </a>
+                </article>
+
+                <article class="carte-formation animer">
+                    <div class="carte-formation-icone">🤝</div>
+                    <h4>Conseiller de Vente</h4>
+                    <p>Développez votre expertise en vente conseil, négociation et fidélisation client dans un environnement professionnel dynamique.</p>
+                    <a href="formations.html#conseiller-vente" class="carte-formation-lien">
+                        En savoir plus →
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valeurs -->
+    <section class="section section-alt" id="valeurs">
+        <div class="conteneur">
+            <h2 class="titre-section animer">Nos Valeurs et Engagements</h2>
+            <div class="valeurs-grille">
+                <div class="valeur-item animer">
+                    <div class="valeur-icone">✓</div>
+                    <h3>Excellence</h3>
+                    <p>Nous sélectionnons des profils dotés de talents et d'un esprit entrepreneurial fort, accompagnés par des formateurs expérimentés.</p>
+                </div>
+                <div class="valeur-item animer">
+                    <div class="valeur-icone">✓</div>
+                    <h3>Diversité</h3>
+                    <p>Nous travaillons au sein d'un écosystème puissant et diversifié, ouvert à tous les profils et à tous les parcours.</p>
+                </div>
+                <div class="valeur-item animer">
+                    <div class="valeur-icone">✓</div>
+                    <h3>Communauté</h3>
+                    <p>Nos élèves se révèlent dans l'action grâce aux clubs étudiants : développement durable, sport, médias, business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="section temoignages">
+        <div class="conteneur">
+            <h2 class="titre-section animer">Témoignages</h2>
+            <div class="temoignages-carrousel">
+                <div class="temoignage active">
+                    <h3 class="temoignage-nom">Lucas Mercier</h3>
+                    <p class="temoignage-promo">Promotion IFPF 2024 — Employé Commercial</p>
+                    <div class="temoignage-texte">
+                        Grâce à l'IFPF, j'ai pu allier théorie et pratique en alternance. Les formateurs sont à l'écoute, disponibles et passionnés. Aujourd'hui, je suis en CDI dans une grande enseigne.
+                    </div>
+                </div>
+                <div class="temoignage">
+                    <h3 class="temoignage-nom">Sarah Benali</h3>
+                    <p class="temoignage-promo">Promotion IFPF 2023 — Assistant Commercial</p>
+                    <div class="temoignage-texte">
+                        Une formation très concrète avec des mises en situation réelles. L'accompagnement personnalisé m'a permis de décrocher mon premier emploi dès la fin de mon contrat d'alternance.
+                    </div>
+                </div>
+                <div class="temoignage">
+                    <h3 class="temoignage-nom">Kevin Dubois</h3>
+                    <p class="temoignage-promo">Promotion IFPF 2024 — Conseiller de Vente</p>
+                    <div class="temoignage-texte">
+                        L'IFPF m'a donné toutes les clés pour réussir dans la vente : techniques de négociation, connaissance produit, gestion de la relation client. Un vrai tremplin professionnel.
+                    </div>
+                </div>
+                <div class="carrousel-controles">
+                    <button class="carrousel-dot active" aria-label="Témoignage 1"></button>
+                    <button class="carrousel-dot" aria-label="Témoignage 2"></button>
+                    <button class="carrousel-dot" aria-label="Témoignage 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Inclusion -->
+    <section class="cta-inclusion">
+        <div class="conteneur">
+            <div class="cta-contenu animer">
+                <h2>Ensemble, brisons les barrières</h2>
+                <p style="font-size:1.15rem; max-width:700px; margin:0 auto var(--espace-m); color: rgba(255,255,255,0.95);">
+                    L'IFPF s'engage pour l'inclusion et l'égalité des chances.<br>
+                    Rejoignez une institution qui croit en votre potentiel.
+                </p>
+                <a href="contact.html" class="btn btn-rouge">Contactez-nous dès maintenant</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="pied-page">
+        <div class="conteneur">
+            <div class="pied-grille">
+                <div class="pied-colonne">
+                    <a href="index.html" class="logo" style="margin-bottom: 1rem;">
+                        <div class="logo-icone" style="width:42px; height:42px; font-size:1.1rem;">IF</div>
+                        <div class="logo-texte">
+                            <span class="logo-nom" style="color: var(--blanc);">IFPF</span>
+                            <span class="logo-sous-titre" style="color: rgba(255,255,255,0.7);">Formation Pro</span>
+                        </div>
+                    </a>
+                    <p class="pied-description">
+                        L'Institut de Formation Professionnelle de France forme les talents de demain grâce à des parcours qualifiants et reconnus par le Ministère du Travail.
+                    </p>
+                    <div class="reseaux-sociaux">
+                        <a href="#" class="reseau-lien" aria-label="Facebook">f</a>
+                        <a href="#" class="reseau-lien" aria-label="LinkedIn">in</a>
+                        <a href="#" class="reseau-lien" aria-label="Instagram">ig</a>
+                        <a href="#" class="reseau-lien" aria-label="YouTube">YT</a>
+                    </div>
+                </div>
+
+                <div class="pied-colonne">
+                    <h4>L'Institut</h4>
+                    <ul>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="presentation.html#valeurs">Nos Valeurs</a></li>
+                        <li><a href="presentation.html#methodes">Méthodes Pédagogiques</a></li>
+                        <li><a href="presentation.html#equipement">Nos Équipements</a></li>
+                        <li><a href="actualites.html">Actualités</a></li>
+                    </ul>
+                </div>
+
+                <div class="pied-colonne">
+                    <h4>Formations</h4>
+                    <ul>
+                        <li><a href="formations.html#employe-commercial">Employé Commercial</a></li>
+                        <li><a href="formations.html#assistant-commercial">Assistant Commercial</a></li>
+                        <li><a href="formations.html#preparateur-commande">Préparateur de Commande</a></li>
+                        <li><a href="formations.html#conseiller-vente">Conseiller de Vente</a></li>
+                        <li><a href="apprentissage.html">Apprentissage</a></li>
+                    </ul>
+                </div>
+
+                <div class="pied-colonne">
+                    <h4>Contact</h4>
+                    <div class="pied-contact-item">
+                        <span class="pied-contact-icone">📍</span>
+                        <span>123 Avenue de la République<br>75011 Paris, France</span>
+                    </div>
+                    <div class="pied-contact-item">
+                        <span class="pied-contact-icone">📞</span>
+                        <span>+33 (0)1 23 45 67 89</span>
+                    </div>
+                    <div class="pied-contact-item">
+                        <span class="pied-contact-icone">✉</span>
+                        <span>contact@ifpf.fr</span>
+                    </div>
+                    <div class="pied-contact-item">
+                        <span class="pied-contact-icone">🕓</span>
+                        <span>Lun - Ven : 8h30 - 17h30</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="newsletter">
+                <h4>🗞️ Restez informé de nos actualités</h4>
+                <p style="color: rgba(255,255,255,0.85); font-size: 0.9rem;">Recevez en avant-première nos offres d'emploi, actualités et événements.</p>
+                <form class="newsletter-form formulaire-avec-validation">
+                    <input type="email" class="newsletter-input" placeholder="Votre adresse email" required>
+                    <button type="submit" class="btn btn-rouge">S'abonner</button>
+                </form>
+            </div>
+
+            <div class="pied-bas">
+                <div>© 2026 IFPF — Institut de Formation Professionnelle de France. Tous droits réservés.</div>
+                <div class="pied-liens-bas">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bouton WhatsApp flottant -->
+    <a href="https://wa.me/33123456789" class="whatsapp-flottant" target="_blank" rel="noopener" aria-label="Nous contacter sur WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+        </svg>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
